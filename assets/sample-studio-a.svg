@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 980" role="img" aria-label="Abstract realtime world placeholder">
+  <rect width="760" height="980" fill="#070F2B"/>
+  <circle cx="344" cy="336" r="260" fill="#1B1A55"/>
+  <circle cx="500" cy="260" r="150" fill="#535C91" opacity=".65"/>
+  <path d="M104 732 C240 510 448 560 650 286" fill="none" stroke="#B8FFF4" stroke-width="18" opacity=".38"/>
+  <polygon points="180,620 390,520 544,736 286,820" fill="#9290C3" opacity=".38"/>
+</svg>

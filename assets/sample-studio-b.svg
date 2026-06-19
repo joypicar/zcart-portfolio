@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 760" role="img" aria-label="Abstract AI concept pass placeholder">
+  <rect width="980" height="760" fill="#1B1A55"/>
+  <path d="M0 560 C240 420 370 650 580 500 C738 388 770 210 980 160 V760 H0Z" fill="#070F2B"/>
+  <circle cx="620" cy="306" r="190" fill="#535C91"/>
+  <circle cx="670" cy="260" r="92" fill="#9290C3" opacity=".72"/>
+  <path d="M186 210 C310 122 542 100 812 250" fill="none" stroke="#FFD6A5" stroke-width="12" opacity=".55"/>
+  <g fill="#B8FFF4" opacity=".35"><circle cx="232" cy="470" r="34"/><circle cx="300" cy="430" r="18"/><circle cx="354" cy="502" r="26"/></g>
+</svg>

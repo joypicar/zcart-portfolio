@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Abstract cinematic closing image placeholder">
+  <defs><linearGradient id="c" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#070F2B"/><stop offset=".58" stop-color="#1B1A55"/><stop offset="1" stop-color="#535C91"/></linearGradient></defs>
+  <rect width="900" height="620" fill="url(#c)"/>
+  <circle cx="610" cy="290" r="190" fill="#9290C3" opacity=".38"/>
+  <path d="M92 420 C250 160 530 110 820 300" fill="none" stroke="#B8FFF4" stroke-width="16" opacity=".42"/>
+  <path d="M110 494 C310 390 560 512 790 376" fill="none" stroke="#FFD6A5" stroke-width="10" opacity=".45"/>
+  <polygon points="362,190 512,250 468,406 294,356" fill="#535C91" opacity=".8"/>
+</svg>

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio for Jason Labaguis, a 3D artist and AI specialist building cinematic assets, generative pipelines, and real-time worlds."
+    />
+    <title>Jason Labaguis | 3D Artist & AI Specialist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <button class="menu-button" type="button" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <a class="brand" href="#top" aria-label="Jason Labaguis home">Jason Labaguis</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#studio">Studio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="mailto:hello@cartlabaguis.studio">Book a review</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-stage">
+          <canvas id="hero-canvas" aria-label="Interactive abstract 3D sculptural scene"></canvas>
+          <div class="hero-shade" aria-hidden="true"></div>
+          <div class="motion-ruler" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="social-rail" aria-label="Social links">
+            <a href="https://instagram.com" aria-label="Instagram">Ig</a>
+            <a href="https://vimeo.com" aria-label="Vimeo">Vi</a>
+            <a href="https://youtube.com" aria-label="YouTube">Yt</a>
+          </div>
+          <figure class="hero-portrait">
+            <img src="assets/portraits/jason-sample-cutout.png" alt="Sample half-body portrait of Jason Labaguis" />
+          </figure>
+          <div class="hero-content">
+            <p class="eyebrow">3D Artist + Motion Graphics + AI Specialist</p>
+            <h1 id="hero-title">I’m Jason Labaguis.</h1>
+            <p class="hero-copy">
+              I create 3D components, motion graphics, and AI automation for cinematic digital experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#work">View selected work</a>
+              <a class="button secondary" href="#process">Explore pipeline</a>
+            </div>
+            <div class="hero-metrics" aria-label="Portfolio highlights">
+              <div>
+                <strong>82</strong>
+                <span>AI asset systems shipped</span>
+              </div>
+              <div>
+                <strong>14</strong>
+                <span>Realtime launches</span>
+              </div>
+              <div>
+                <strong>4.8x</strong>
+                <span>Average iteration lift</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-meta" aria-label="Studio metadata">
+            <span>14.5995° N, 120.9842° E</span>
+            <span>Creating 3D motion systems in Manila / Philippines</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Specialties">
+        <span>Generative lookdev</span>
+        <span>Realtime environments</span>
+        <span>AI texture pipelines</span>
+        <span>Motion systems</span>
+        <span>Product visualization</span>
+      </section>
+
+      <section class="section intro-grid" aria-label="Studio overview">
+        <div class="section-heading">
+          <p class="eyebrow">What I build</p>
+          <h2>High-fidelity 3D with the pace of modern AI production.</h2>
+        </div>
+        <figure class="image-frame intro-frame">
+          <img src="assets/portfolio/lookdev.png" alt="Sample cinematic 3D look development still" loading="lazy" />
+          <figcaption>Sample lookdev still</figcaption>
+        </figure>
+        <div class="capabilities">
+          <article>
+            <span>01</span>
+            <h3>Worlds and launch films</h3>
+            <p>Art direction, cinematic staging, product animation, lighting, simulation, and environment assembly.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>AI-assisted asset ops</h3>
+            <p>Prompt systems, model-assisted texture ideation, asset QA loops, and clean handoff libraries.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Realtime experiences</h3>
+            <p>WebGL scenes, interactive hero systems, stylized scans, procedural variants, and live art reviews.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Clients & Projects</p>
+          <h2 id="work-title">Selected worlds, systems, and launch visuals.</h2>
+        </div>
+        <div class="filter-bar" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="film">Films</button>
+          <button class="filter" data-filter="ai">AI systems</button>
+          <button class="filter" data-filter="realtime">Realtime</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-type="film">
+            <div class="project-visual visual-one" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-copy">
+              <p>Launch Film</p>
+              <h3>Haloform Signal</h3>
+              <span>View work</span>
+            </div>
+          </article>
+          <article class="project-card" data-type="ai">
+            <div class="project-visual visual-two" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-copy">
+              <p>AI Pipeline</p>
+              <h3>Material Atlas</h3>
+              <span>View work</span>
+            </div>
+          </article>
+          <article class="project-card" data-type="realtime">
+            <div class="project-visual visual-three" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-copy">
+              <p>Interactive WebGL</p>
+              <h3>Drift Room</h3>
+              <span>View work</span>
+            </div>
+          </article>
+          <article class="project-card" data-type="ai">
+            <div class="project-visual visual-four" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-copy">
+              <p>Generative Toolkit</p>
+              <h3>Specimen Lab</h3>
+              <span>View work</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process-section" id="process" aria-labelledby="process-title">
+        <div class="section-heading">
+          <p class="eyebrow">Process</p>
+          <h2 id="process-title">Describe the ambition, compare strong directions, ship the best one.</h2>
+        </div>
+        <div class="process-steps">
+          <article>
+            <span>01</span>
+            <h3>Signal brief</h3>
+            <p>Define the emotion, audience, constraints, and production reality before a single frame gets polished.</p>
+            <img src="assets/portfolio/brief.png" alt="Sample visual reference board" loading="lazy" />
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Variation sprint</h3>
+            <p>Generate and model multiple visual paths, then compare them through motion tests and technical checks.</p>
+            <img src="assets/portfolio/variants.png" alt="Sample motion variation frame" loading="lazy" />
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Production pass</h3>
+            <p>Refine geometry, materials, lighting, prompts, and exports into a system the team can keep using.</p>
+            <img src="assets/portfolio/production.png" alt="Sample final production render" loading="lazy" />
+          </article>
+        </div>
+      </section>
+
+      <section class="section studio-section" id="studio" aria-labelledby="studio-title">
+        <div>
+          <p class="eyebrow">Studio stack</p>
+          <h2 id="studio-title">A hybrid practice for art direction and automation.</h2>
+          <p>
+            The work blends Blender, Houdini, Cinema 4D, Unreal, Stable Diffusion, ComfyUI, Three.js, and custom review tooling. The goal is not to make AI visible. The goal is to make the creative process sharper.
+          </p>
+        </div>
+        <div class="stack-list" aria-label="Tools and methods">
+          <span>Blender</span>
+          <span>Houdini</span>
+          <span>Unreal</span>
+          <span>ComfyUI</span>
+          <span>Three.js</span>
+          <span>Python tools</span>
+          <span>Photogrammetry</span>
+          <span>Style training</span>
+        </div>
+        <div class="studio-media" aria-label="Sample portfolio image wall">
+          <figure class="image-frame">
+            <img src="assets/portfolio/realtime-world.png" alt="Sample 3D studio render" loading="lazy" />
+            <figcaption>Realtime world</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="assets/portfolio/ai-concept.png" alt="Sample AI-assisted concept image" loading="lazy" />
+            <figcaption>AI concept pass</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="assets/portfolio/motion-frame.png" alt="Sample motion graphics frame" loading="lazy" />
+            <figcaption>Motion frame</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Bring the impossible visual. I’ll build the system.</h2>
+        </div>
+        <figure class="image-frame contact-frame" aria-label="Sample portfolio closing image">
+          <img src="assets/portfolio/production.png" alt="Sample cinematic project still" loading="lazy" />
+        </figure>
+        <a class="button primary" href="mailto:hello@cartlabaguis.studio">hello@cartlabaguis.studio</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Jason Labaguis</span>
+      <span>3D, AI, motion, realtime</span>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
