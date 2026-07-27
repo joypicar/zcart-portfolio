@@ -369,7 +369,7 @@ p {
 
 .skill-list {
   display: grid;
-  gap: 18px;
+  gap: 22px;
   margin-top: 6px;
 }
 
@@ -377,7 +377,7 @@ p {
   position: relative;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 9px 14px;
+  gap: 12px 14px;
   color: var(--ink);
   font-size: 13px;
   font-weight: 900;
@@ -390,6 +390,7 @@ p {
   height: 9px;
   border-radius: 999px;
   content: "";
+  grid-row: 2;
 }
 
 .skill::before {
@@ -397,9 +398,6 @@ p {
 }
 
 .skill i {
-  position: absolute;
-  left: 0;
-  bottom: 0;
   width: var(--value);
   background: var(--ink);
   box-shadow: none;
