@@ -254,7 +254,7 @@ h1 {
 }
 
 .typing-line {
-  width: max-content;
+  width: 0;
   max-width: 100%;
   margin: 24px auto 0;
   overflow: hidden;
@@ -263,7 +263,7 @@ h1 {
   font-size: clamp(16px, 2.6vw, 27px);
   font-weight: 800;
   white-space: nowrap;
-  animation: typing 3.8s steps(42, end) 0.45s both, caret 760ms steps(1) infinite;
+  animation: typingLoop 5.4s steps(25, end) 0.45s infinite, caret 760ms steps(1) infinite;
 }
 
 .social-links {
@@ -689,12 +689,17 @@ p {
   }
 }
 
-@keyframes typing {
-  from {
+@keyframes typingLoop {
+  0%,
+  8% {
     width: 0;
   }
-  to {
-    width: 43ch;
+  42%,
+  72% {
+    width: 25ch;
+  }
+  100% {
+    width: 0;
   }
 }
 
